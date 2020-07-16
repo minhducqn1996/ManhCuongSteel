@@ -1,0 +1,144 @@
+footer{
+    background: #222326;
+}
+.col-md-3 h3{
+    font-family: 'Open Sans Extrabold';
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    margin: 50px 0 40px 0;
+    text-align: center;
+}
+.col-md-3 p{
+    font-size: 12px;
+    font-family: 'Arial Regular';
+    color: white;
+    margin-bottom: 20px;
+}
+.ad{
+    font-family: 'Arial Regular';
+    font-size: 13px;
+    color: white;
+    margin-bottom: 20px;
+}
+.ad::before{
+    content: "\f041";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: yellow;
+    margin-right: 5px;
+}
+.tl{
+    font-family: 'Arial Regular';
+    font-size: 13px;
+    color: white;
+    margin-bottom: 40px;
+}
+.tl::before{
+    content: "\f10b";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: yellow;
+    margin-right: 5px;
+}
+.gmail{
+    font-family: 'Arial Regular';
+    font-size: 13px;
+    color: white;
+    margin-bottom: 20px;
+}
+.gmail::before{
+    content: "\f0e0";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: yellow;
+    margin-right: 5px;
+}
+.social-netword-footer i{
+    color: white;
+    margin-top: 20px;
+    font-size: 16px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.col-md-2 span{
+    display: block;
+    font-family: 'OpenSans  Semibold';
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    margin: 50px 0 40px 0;
+}
+.col-md-2 ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-left: 40px;
+    line-height: 30px;
+}
+.col-md-2 ul  li a{
+    text-decoration: none;
+    color: white;
+}
+.col-md-2 ul  li a::before{
+    content: "\f111";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: yellow;
+    margin-right: 5px;
+    font-size: 8px;
+}
+.col-3-product span{
+    display: block;
+    font-family: 'OpenSans  Semibold';
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    margin: 50px 0 40px 0;
+}
+.col-3-product ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-left: 40px;
+    line-height: 30px;
+}
+.col-3-product ul  li a{
+    text-decoration: none;
+    color: white;
+}
+.col-3-product ul  li a::before{
+    content: "\f111";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: yellow;
+    margin-right: 5px;
+    font-size: 8px;
+}
+.col-md-4 span{
+    display: block;
+    font-family: 'OpenSans  Semibold';
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    margin: 50px 0 40px 0;
+}
+.copyright{
+    display: flex;
+    background: #1a1c1f;
+    color: white;
+}
+.copyright .right{
+    float: right;
+    padding: 15px 0;
+    font-family: 'Arial Regular';
+    font-size: 13px;
+}
+.copyright .left{
+    float: left;
+    padding: 15px 0;
+    font-family: 'Arial Regular';
+    font-size: 13px;
+}
+
+

@@ -1,0 +1,146 @@
+@font-face{
+    font-family: 'OpenSans  Semibold';
+    src: url('../fonts/open-sans-semibold.ttf');
+}
+@font-face{
+    font-family: 'OpenSans Bold';
+    src: url('../fonts/OpenSans-Bold.ttf');
+}
+section{
+    margin-top:8px ;
+}
+.sidebar-title{
+    background: #3b84b0;
+    display: block;
+    padding: 20px 0 20px 20px;
+    font-family: 'OpenSans Regular';
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+}
+.sidebar-title .glyphicon-menu-hamburger{
+    margin-right: 20px;
+}
+.category ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 16px;
+}
+.category ul li a{
+    font-family: 'OpenSans  Semibold';
+    font-size: 13px;
+    padding: 20px  0 20px 22px;
+    background: #f2f1f1;
+    display: block;
+    text-decoration: none;
+    color: #444444;
+    text-transform: uppercase;
+    border-bottom: 1px solid white;
+}
+.category ul li a:hover{
+    background: #464a51;
+    color: white;
+}
+.best-seller{
+    background: #f2f1f1;
+    padding: 10px;
+}
+.sb-product{
+    border-bottom: 1px solid #a7a7a7;
+    margin-bottom: 15px;
+}
+.sb-product img{
+    width: 100%;    
+}
+.sb-product h4{
+    font-family: 'OpenSans Bold';
+    font-size: 14px;
+    color: #424343;
+}
+.m-b-0{
+    margin-bottom: 0 !important;
+}
+.carousel-inner img{
+    width: 100%;
+}
+.content-main  h1{
+    font-family: 'Open Sans Extrabold';
+    font-size: 30;
+    text-align: center;
+    color: red;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+.content-main  p{
+    text-align: justify;
+    margin-bottom: 30px;
+}
+.product-home-title{
+    display: flex;
+    margin-bottom: 30px;
+    background: #222326;
+    margin-top: 60px;
+}
+.product-home-title  .text{
+    width: 33%;
+    clip-path: polygon(0 0, 69% 0, 100% 100%, 0% 100%);
+    background: #3b84b0;
+    color: white;
+    font-family: 'OpenSans  Semibold';
+    font-size: 16px;
+    padding: 15px;
+    text-transform: uppercase;
+    
+}
+.product-home-title .more{
+    width: 67%;
+    background: #222326;
+    color: white;
+    text-align: right;
+    padding: 20px;
+    font-family: 'Arial Regular';
+    font-size: 12px;
+}
+.product-home{
+    margin-bottom: 30px;
+}
+.product-home img{
+    width: 100%;
+    height: 250px;
+}
+.product-home h3{
+    font-family: 'Arial Regular';
+    font-size: 15px;
+    background: #222326;
+    margin: 0;
+    padding: 20px;
+    font-family: 'Arial Regular';
+    font-size: 15px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+.product-home h3:hover{
+    background-color: #3b84b0;
+    color: white;
+}
+
+/* product */
+.col-md-6 .product-home  img{
+    height: 400px;
+}
+.col-md-6  p{
+    text-align: justify;
+}
+.col-md-6  span{
+    display: block;
+    margin: 20px 0;
+}
+.social-netword{
+    margin-top: 20px;
+}
+.social-netword a{
+    font-size: 20px;
+}

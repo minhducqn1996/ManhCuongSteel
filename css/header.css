@@ -1,0 +1,36 @@
+@font-face{
+    font-family: 'Arial Regular';
+    src: url('/fonts/arial_regular.ttf');
+}
+@font-face{
+    font-family: 'Open Sans Extrabold';
+    src: url('../fonts/OpenSans_ExtraBold.ttf');
+}
+.header-top{
+    font-family: 'Arial Regular';
+    font-size: 13px;
+    color: white;
+    background-color: #3b84b0;
+    padding: 13px 0;  
+    text-transform: uppercase;
+}
+.header-bottom{
+    background-image: url('../image/bg-header-bottom.png');
+    background-repeat: round;
+}
+.header-bottom h2{
+    margin: 22px 0;
+    font-family: 'Open Sans Extrabold';
+    font-size: 35px;
+    color: #f8f8f8;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 3px #444444;
+}
+.header-bottom .address{
+    font-family: 'Open Sans Extrabold';
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 24px;
+    text-shadow: 1px 1px 3px #444444;
+    margin-bottom: 18px;
+}
